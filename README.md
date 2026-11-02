@@ -66,7 +66,15 @@ Bear and bull are analyst judgment. The bear margin of 24% is about the 2019–2
 
 ### Sensitivity (base case, value per share)
 
-[Paste the sensitivity table from `projection.py` here after re-running it.]
+| WACC \ Terminal growth | 2.0% | 2.5% | 3.0% | 3.5% | 4.0% |
+|---|---|---|---|---|---|
+| **8.0%** | $172 | $189 | $208 | $232 | $262 |
+| **9.0%** | $142 | $153 | $166 | $182 | $201 |
+| **10.0%** | $119 | $127 | $137 | $148 | $160 |
+| **10.4%** | $112 | $119 | $127 | $137 | $148 |
+| **11.0%** | $102 | $108 | $115 | $123 | $132 |
+
+The 10.4% row is rounded, so its $127 at 3% growth is the base case ($126 in the scenario table, which uses the unrounded WACC).
 
 ### Comparable companies
 
